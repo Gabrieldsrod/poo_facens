@@ -46,7 +46,6 @@ public class Pessoa {
                 + "\n Nome: " + nome
                 + "\n Sexo: " + sexo
                 + "\n Idade: " + idade + " anos\n";
-
         return string;
     }
 }
