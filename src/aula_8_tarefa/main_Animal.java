@@ -57,13 +57,13 @@ public class main_Animal {
                             
                         default:
                             throw new AssertionError();
-                    }
+    }
                     break;
-                
+
                 case 2:
                     for (Animal animal : animais) {
                         System.out.println(animal.imprimir());
-                    }
+}
                     break;
                 
                 case 3:
