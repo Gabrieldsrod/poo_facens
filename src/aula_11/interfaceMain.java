@@ -7,7 +7,7 @@ public class interfaceMain {
     public static void main(String[] args) {
         ArrayList<IAutomatico> veiculosAutomaticos = new ArrayList<>();
         
-        System.out.println("Polimorfismo veiculos automaticos:");
+        System.out.println("Polimorfismo Veiculos Automaticos:");
         veiculosAutomaticos.add(new CarroAutomatico());
         veiculosAutomaticos.add(new MotoAutomatica());
         veiculosAutomaticos.add(new Aviao());
@@ -26,7 +26,5 @@ public class interfaceMain {
         for (IVoa voador : voadores) {
             voador.voar();
         }
-        
     }
-
 }
